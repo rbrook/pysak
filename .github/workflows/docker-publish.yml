@@ -1,4 +1,4 @@
-name: Docker
+name: Build and Push Pysak to Docker Hub
 
 # This workflow uses actions that are not certified by GitHub.
 # They are provided by a third-party and are governed by
@@ -7,7 +7,7 @@ name: Docker
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '59 7 1 * *'
   push:
     branches: [ "master" ]
 
