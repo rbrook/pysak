@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "poetryvenv"
+version = "0.1.0"
+description = ""
+authors = ["Yo Bro <yo@bro.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ipython = "^8.14.0"
+requests = "^2.31.0"
+Flask = "^2.3.3"
+pytz = "^2023.3"
+httpie = "^3.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
